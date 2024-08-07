@@ -20,7 +20,7 @@ import CardImage1 from "../../assets/images/Events/event4.jpg"
 import CardImage2 from "../../assets/images/Events/event6.jpg"
 import CardImage3 from "../../assets/images/Events/event7.jpg"
 
-const Causes = () => {
+const Cases = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -66,7 +66,7 @@ const Causes = () => {
         }
       ]
   };
-
+<h2></h2>
   const cards = [
     {
       imageSrc:
@@ -99,7 +99,7 @@ const Causes = () => {
 
   return (
     <>
-    <h2 className="md:text-[40px] sm:text-[35px] text-[25px] text-center font-[700] my-[30px]">Cases we are serving</h2>
+    <h2 className="md:text-[40px] sm:text-[35px] text-[25px] text-center font-[700] mt-[60px] mb-[30px]">Cases we are serving</h2>
          <Box position="relative"
     margin="0 auto"
     overflow="hidden"
@@ -125,7 +125,7 @@ const Causes = () => {
                     <Heading size="lg" className="">{card.title}</Heading>
                     <Text className="text-[16px] font-[300]">{card.description}</Text>
                     <Box className="flex items-center gap-[25px]">
-                        <Button text="Donate" to="/getinvolved" className="px-[30px] py-[10px] text-white rounded-[20px]"/>
+                        <Button text="Donate" to="getinvolved" className="px-[30px] py-[10px] text-white rounded-[20px]"/>
                         <Box className="flex items-center gap-[20px]">
                         <Text className="flex flex-col">
                         <Text className="text-customorange text-[20px]">{card.priceGoal}</Text>
@@ -153,4 +153,4 @@ const Causes = () => {
   );
 };
 
-export default Causes;
+export default Cases;

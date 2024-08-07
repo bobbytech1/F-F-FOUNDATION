@@ -24,7 +24,8 @@ module.exports = {
         'xsm': '480px',  // Screens at least 480px wide
         'xsmm': '430px',  // Screens at least 430px wide
         'mxsm': '390px',
-        'xsl': '360px'
+        'xsl': '360px',
+        'xssl': '320px'
         
       },
       animation: {

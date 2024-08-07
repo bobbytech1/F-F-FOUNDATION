@@ -1,22 +1,18 @@
 import TopNav from "../../components/Header/TopNav";
 import MainNav from "../../components/Header/MainNav";
-import Hero from "../../components/Hero/Hero";
-import Causes from "../../components/Causes/Causes";
-import WhoWeAre from "../../components/Whoweare/Who";
-import Serve from "../../components/Serve/Serve";
+import GenHero from "../../components/GenHero/GenHero";
+import WhatWeDo from "../../components/Whatwedo/Whatwedo";
 import Help from "../../components/Help/Help";
 import JoinUs from "../../components/JoinUs/JoinUs";
 import Footer from "../../components/Footer/Footer";
 
-const Home = () => {
+const Programs = () => {
     return ( 
         <>
             <TopNav />
             <MainNav />
-            <Hero />
-            <Causes />
-            <WhoWeAre />
-            <Serve />
+            <GenHero text="Programs/Projects"/>
+            <WhatWeDo />
             <Help />
             <JoinUs />
             <Footer />
@@ -24,4 +20,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default Programs;

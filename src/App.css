@@ -6,5 +6,34 @@
     display: none;
 }
 
+@media (min-width:1000px) {
+    #imgcont{
+        width: 250%;
+    }
+}
+
+.DnBg{
+    background-image: url('./assets/images/Events/event20.jpg');
+}
 
 
+@media (min-width:1000px) {
+    #imgcont2{
+        width:250%;
+    }
+}
+
+.hero3{
+    display: none;
+}
+@media (max-width:320px) {
+    .hero3{
+        display: flex;
+    }
+}
+
+.About-bg{
+    background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 35%, rgba(0, 0, 0, 0.65) 100%),
+    url('./assets/images/Events/event18.jpg');
+}

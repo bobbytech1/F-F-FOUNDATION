@@ -15,7 +15,7 @@ export function NextArrow({ className, style, onClick }) {
         borderRadius="full"
         cursor="pointer"
         _hover={{ bg: "blue.700" }}
-        zIndex="-999"
+        zIndex="1"
         display="flex"
         justifyContent="center"
         alignContent="center"
@@ -41,7 +41,7 @@ export function PrevArrow({ className, style, onClick }) {
         borderRadius="full"
         cursor="pointer"
         _hover={{ bg: "blue.700" }}
-        zIndex="-999"
+        zIndex="1"
         display="flex"
         justifyContent="center"
         alignContent="center"
