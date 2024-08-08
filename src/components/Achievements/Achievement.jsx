@@ -7,7 +7,7 @@ const Achievements = () => {
     return ( 
         <>
             <Box bg="#f5b05f" className="px-[20px] py-[50px]">
-                <Box className="flex flex-wrap items-center justify-center gap-[10%]">
+                <Box className="flex flex-wrap items-center justify-center gap-[5%]">
                     <Box className="flex items-center gap-[25px]">
                         <FaHandsHoldingCircle size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }} />
                         <Stack spacing={0}>
@@ -16,24 +16,24 @@ const Achievements = () => {
                         </Stack>
                     </Box>
                     <Box className="flex items-center gap-[25px]">
-                    <FaHandsHoldingCircle size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
+                    <IoIosPeople size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
                         <Stack>
                         <CountUp start={0} end={1000} duration={15} separator="," className="text-[46px] text-white font-Poppins font-[700]"/>
-                        <Text className="text-[20px] font-Poppins font-[300] text-white">Active Cases</Text>
+                        <Text className="text-[20px] font-Poppins font-[300] text-white">People Joined</Text>
                         </Stack>
                     </Box>
                     <Box className="flex items-center gap-[25px]">
-                    <FaHandsHoldingCircle size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
+                    <FaHandsHoldingChild size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
                         <Stack>
                         <CountUp start={0} end={1000} duration={15} separator="," className="text-[46px] text-white font-Poppins font-[700]"/>
-                        <Text className="text-[20px] font-Poppins font-[300] text-white">Active Cases</Text>
+                        <Text className="text-[20px] font-Poppins font-[300] text-white">Cases Every Year</Text>
                         </Stack>
                     </Box>
                     <Box className="flex items-center gap-[25px]">
-                    <FaHandsHoldingCircle size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
+                    <FaPeopleGroup size={60} color="#ffffff" style={{ fill: 'none', stroke: 'currentColor', strokeWidth: '30px' }}/>
                         <Stack>
                         <CountUp start={0} end={1000} duration={15} separator="," className="text-[46px] text-white font-Poppins font-[700]"/>
-                        <Text className="text-[20px] font-Poppins font-[300] text-white">Active Cases</Text>
+                        <Text className="text-[20px] font-Poppins font-[300] text-white">People helped</Text>
                         </Stack>
                     </Box>
                 </Box>

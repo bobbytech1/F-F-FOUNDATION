@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import ScrollToTop from './Scroll.js';
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import News from "../pages/News/News";
@@ -9,6 +10,7 @@ const FolderRoute = () => {
     return ( 
         <>
         <div>
+            <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

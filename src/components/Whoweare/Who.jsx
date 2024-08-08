@@ -14,8 +14,8 @@ const WhoWeAre = () => {
                     <Box>
                         <Stack spacing={4} className="flex mxl:justify-start mxl:items-start justify-center items-center mxl:mb-[0] mb-[40px]">
                             <Text className="md:text-[40px] sm:text-[35px] text-[25px] font-[700] font-Poppins mxl:text-start text-center">Who we are?</Text>
-                            <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[400] font-Poppins mxl:text-start text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis libero incidunt nobis asperiores voluptas assumenda?</Text>
-                            <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[300] font-Poppins w-[100%] mxl:text-start text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quisquam, explicabo fugiat labore ullam quos sit. Dolores deleniti animi facilis neque? Quae cum omnis similique numquam quibusdam eaque doloremque maxime!</Text>
+                            <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[400] font-Poppins mxl:text-start text-center">First Floor Foundation is a hundred percent indigenous Non Governmental Organization  ( NGO ) that focuses on promoting the welfare, rights, and empowerment of women and children in Nigeria</Text>
+                            <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[300] font-Poppins w-[100%] mxl:text-start text-center">Through our dedicated efforts, we provide essential resources, advocate for the rights of the vulnerable, and create opportunities for women and children to thrive in a supportive and nurturing environment.</Text>
                             <Button text="Learn More" to="/about" className="text-center w-[50%] xsmm:w-[30%] py-[10px] text-white rounded-[20px] text-[16px] font-[500] font-Poppins mt-[25px]"/>
                         </Stack>
                     </Box>

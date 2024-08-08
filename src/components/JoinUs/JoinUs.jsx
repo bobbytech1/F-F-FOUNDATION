@@ -13,9 +13,9 @@ const JoinUs = () => {
                     </Box>
                 <Box>
                     <Stack className="flex mxl:justify-start mxl:items-start justify-center items-center mxl:mb-[0] mt-[40px]">
-                    <Text className="md:text-[40px] sm:text-[35px] text-[25px] font-[700] font-Poppins mxl:text-start text-center">Join with Us</Text>
-                    <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[300] font-Poppins w-[100%] mxl:text-start text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta error sunt corporis facilis quibusdam saepe quod consequuntur vitae minima necessitatibus. Ex veritatis molestias cupiditate earum quod incidunt optio fuga.</Text>
-                    <Button text="Join Now" className="text-center w-[50%] xsmm:w-[30%] py-[10px] text-white rounded-[20px] text-[16px] font-[500] font-Poppins mt-[25px]"/>
+                    <Text className="md:text-[40px] sm:text-[35px] text-[25px] font-[700] font-Poppins mxl:text-start text-center">Join our Course</Text>
+                    <Text className="md:text-[18px] sm:text-[16px] text-[14px] font-[300] font-Poppins w-[100%] mxl:text-start text-center">Unlock your potential with our course. Gain the skills and knowledge needed to make a meaningful impact and drive positive change. Whether you're looking to develop new expertise or strengthen your existing abilities, our comprehensive program offers the tools and resources you need to succeed. Join a community of passionate learners and start your journey toward making a difference today.</Text>
+                    <Button text="Join Now" to="/getinvolved" className="text-center w-[50%] xsmm:w-[30%] py-[10px] text-white rounded-[20px] text-[16px] font-[500] font-Poppins mt-[25px]"/>
                     </Stack>
                 </Box>
                 

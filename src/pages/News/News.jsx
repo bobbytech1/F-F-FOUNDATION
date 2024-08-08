@@ -12,7 +12,6 @@ const News = () => {
             <MainNav />
             <GenHero text="News" />
             <NewsCases />
-            <Help />
             <JoinUs />
             <Footer />
         </>

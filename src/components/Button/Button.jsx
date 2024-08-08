@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-const Button = ({ text, to, height, width, className, type, icon: Icon }) => {
+import { Link, } from "react-router-dom";
+const Button = ({ text, to, height, width, onClick, className, type, icon: Icon }) => {
   return (
     <>
       <Link
@@ -7,6 +7,7 @@ const Button = ({ text, to, height, width, className, type, icon: Icon }) => {
         type={type}
         style={{ height: height, width: width }}
         to={to}
+        onClick={onClick}
       >
         {text}
         {Icon && <Icon />}

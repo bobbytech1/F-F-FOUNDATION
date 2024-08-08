@@ -3,10 +3,12 @@ import useNavbar from "../../hooks/useNavbar";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import Logo from "../../assets/images/logoimg1.png";
 import LogoName from "../../assets/images/logoname1.png"
+import { useModal } from "../../context/useModal";
 import { Link } from "react-router-dom";
 
 const MainNav = () => {
   const { isOpen, toggleMenu, isFixed } = useNavbar();
+  const { openModal } = useModal();
   return (
     <>
     <div className="relative">
@@ -33,7 +35,7 @@ const MainNav = () => {
             </Link>
             <Button
               text="Donate Now"
-              to="getinvolved"
+              onClick={openModal}
               className="px-[25px] py-[10px] text-white rounded-[20px]"
             />
           </ul>
@@ -62,7 +64,7 @@ const MainNav = () => {
             </Link>
             <Button
               text="Donate Now"
-              to="/getinvolved"
+              
               className=" text-center py-[10px] w-[60%] xsl:w-[40%] sm:w-[20%] text-white rounded-[20px]"
             />
         </div>

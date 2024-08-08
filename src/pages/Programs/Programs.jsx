@@ -14,8 +14,9 @@ const Programs = () => {
             <GenHero text="Programs/Projects"/>
             <WhatWeDo />
             <Help />
-            <JoinUs />
+            <div className="pt-[80px]">
             <Footer />
+            </div>
         </>
      );
 }

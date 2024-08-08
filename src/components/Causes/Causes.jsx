@@ -15,12 +15,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { PrevArrow, NextArrow } from "../Carousel/CarouselArrows";
+import { useModal } from "../../context/useModal.jsx";
 import Button from "../Button/Button";
 import CardImage1 from "../../assets/images/Events/event4.jpg"
 import CardImage2 from "../../assets/images/Events/event6.jpg"
 import CardImage3 from "../../assets/images/Events/event7.jpg"
 
 const Causes = () => {
+  const { openModal } = useModal();
   const settings = {
     dots: true,
     infinite: true,
@@ -71,27 +73,27 @@ const Causes = () => {
     {
       imageSrc:
         CardImage1,
-      title: "Sponsor a child",
+      title: "Rights Advocacy",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!",
+        "The NGO is actively fighting against discrimination, abuse, and exploitation, ensuring that women and children have the rights and protection they deserve.",
       priceGoal: "$450",
       priceRaised: "$300"
     },
     {
       imageSrc:
       CardImage2,
-      title: "Sponsor a child",
+      title: "Women’s Empowerment",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!",
+        "The NGO provides educational opportunities, vocational training, and leadership workshops to empower women, helping them build self-esteem, financial independence, and entrepreneurial skills.",
       priceGoal: "$550",
       priceRaised: "$400"
     },
     {
       imageSrc:
       CardImage3,
-      title: "Sponsor a child",
+      title: "Health Support",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolore!",
+        "The NGO offers essential healthcare services, including maternal and child health care, along with nutritional programs to ensure that women and children have access to proper nutrition and overall well-being.",
       priceGoal: "$650",
       priceRaised: "$500"
     },
@@ -111,7 +113,7 @@ const Causes = () => {
         <Slider {...settings}>
           {cards.map((card, index) => (
             <Box key={index} padding="2">
-              <Card>
+              <Card className="h-[73vh]">
                 <Image
                   src={card.imageSrc}
                   alt={card.title}
@@ -122,10 +124,10 @@ const Causes = () => {
                 />
                 <CardBody>
                   <Stack mt="3" pr="1" pl="1" spacing="3">
-                    <Heading size="lg" className="">{card.title}</Heading>
+                    <h2 className="text-[25px] font-[700]">{card.title}</h2>
                     <Text className="text-[16px] font-[300]">{card.description}</Text>
                     <Box className="flex items-center gap-[25px]">
-                        <Button text="Donate" to="/getinvolved" className="px-[30px] py-[10px] text-white rounded-[20px]"/>
+                        <Button text="Donate"  onClick={openModal} className="px-[30px] py-[10px] text-white rounded-[20px]"/>
                         <Box className="flex items-center gap-[20px]">
                         <Text className="flex flex-col">
                         <Text className="text-customorange text-[20px]">{card.priceGoal}</Text>

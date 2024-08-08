@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Bgimage1 from "../../assets/images/Events/event1.jpg";
 import Bgimage2 from "../../assets/images/Events/event2.jpg";
 import Button from "../Button/Button";
-import Bgimage3 from "../../assets/images/Events/event3.jpg";
+import Bgimage3 from "../../assets/images/Events/event4.jpg";
 import useOrientation from "../../hooks/useOrientation";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
@@ -51,8 +51,8 @@ const Hero = () => {
        transition={{ duration: 4 }}
        >
         <Stack spacing={2} className="text-white font-Poppins flex md:justify-start md:items-start justify-center items-center">
-            <Text className="msd:text-[55px] xsm:text-[50px] text-[35px] font-[600] w-[100%] text-center md:text-start md:w-[60%]">Support First Floor Foundation to Help Nigeria and also help the country</Text>
-            <Text className="text-[20px] font-[300] w-[100%] md:w-[40%] text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti deserunt laborum error porro sapiente maxime atque, repellendus aut optio!</Text>
+            <Text className="msd:text-[55px] xsm:text-[50px] text-[35px] font-[600] w-[100%] text-center md:text-start md:w-[60%]">Join Us in Empowering Nigeria, Be a Part of the Change!</Text>
+            <Text className="text-[20px] font-[300] w-[100%] md:w-[40%] text-center md:text-start">Your support helps us provide essential resources, empower communities, and create lasting impact across Nigeria. Together, we can bring hope and build a brighter future for those in need.</Text>
             <Box className="flex items-center md:gap-[30px] gap-[20px] md:flex-row flex-col mt-[10px]">
                 <Button text="Get Involved" to="getinvolved" className="px-[50px] py-[10px] hover:px-[48px] hover:py-[8px] text-white rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-customorange"/>
                 <Link to="/about" className="border-[2px] border-customorange px-[48px] py-[8px] rounded-[20px] hover:bg-customorange">Learn More</Link>
